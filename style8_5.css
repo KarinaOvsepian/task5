@@ -27,7 +27,7 @@ section {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .body-container {
@@ -150,6 +150,10 @@ nav {
     transition: height 0.3s ease-in-out;
   }
 
+  nav ul {
+      justify-content: center;
+  }
+
   .berger-icon {
     display: block;
     position: relative;
@@ -195,11 +199,12 @@ nav {
   .nav-list {
     flex-direction: column;
     padding: 20px 0;
-    align-items: stretch;
+    align-items: center;
+      margin: 0 auto;
   }
 
   .nav-list li {
-    width: 100%;
+    width: auto;
   }
 
   .nav-list li a {
